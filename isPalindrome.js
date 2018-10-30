@@ -1,7 +1,7 @@
 
 
 function isPalindrome(s) {
-    const cleanStr = s.replace(/[^\Wа-яА-Я]/g, '').toLowerCase();
+    const cleanStr = s.replace(/[^\wа-яА-Я]/g, '').toLowerCase();
     
     return cleanStr === cleanStr.split('').reverse().join('');
 }

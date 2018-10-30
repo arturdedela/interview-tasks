@@ -1,8 +1,8 @@
-const isPalindrom = require('../isPalindrome');
+const isPalindrome = require('../isPalindrome');
 
 
 test('String is palindrome', () => {
-    expect(isPalindrom("Eva, can I see bees in a cave?")).toBe(true);
+    expect(isPalindrome("Eva, can I see bees in a cave?")).toBe(true);
 
-    expect(isPalindrom('Яндекс').toBe(false));
+    expect(isPalindrome('Яндекс')).toBe(false);
 })
