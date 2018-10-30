@@ -5,3 +5,5 @@ function isPalindrome(s) {
     
     return cleanStr === cleanStr.split('').reverse().join('');
 }
+
+module.exports = isPalindrome;
