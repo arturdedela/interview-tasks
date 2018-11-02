@@ -1,23 +1,28 @@
 
-// ('AAABbbbBcCCC') => 'A3Bb3BcC3'
+
 function compressString(s) {
-    let repeatCount = 1;
+  const arr = s.split('');
 
-    return Array.prototype.reduce.call(s, (compressed, cur, i) => {
-        if (compressed[compressed.length - 1] == cur) {
-            ++repeatCount;
-            if (i == s.length - 1) {
-                compressed += repeatCount;
-            }
+  let compressed = '', cnt = 1;
+  arr.forEach((v, i) => {
+    if (compressed[[compressed.length] - 1] === v) {
+      cnt++;
 
-            return compressed;
-        } 
+      if (i === arr.length - 1) {
+        compressed += cnt;
+      }
+      return;
+    }
 
-        if (repeatCount > 1) {
-            compressed += repeatCount;
-            repeatCount = 1; 
-        }
-        
-        return compressed += cur;
-    })
+    if (cnt > 1) {
+      compressed += cnt;
+      cnt = 1;
+    }
+
+    compressed += v;
+  });
+
+  return compressed;
 }
+
+module.exports = compressString;
