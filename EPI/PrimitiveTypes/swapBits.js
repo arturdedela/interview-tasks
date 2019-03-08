@@ -20,6 +20,18 @@ function swapBits(n, i, j) {
 }
 
 
+//EPI solution
+function swapBits(n, i, j) {
+    if ((n >> i) & 1 !== (n >> j) & 1) {
+        const bitMask = (1 << i) | (1 << j);
+        n ^= bitMask;
+    }
+
+    return n;
+}
+
+
+
 function toBinaryDigitString(n) {
     let res = '';
 
