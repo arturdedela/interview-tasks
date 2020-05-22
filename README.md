@@ -7,7 +7,7 @@
 3) [Наследование, prototype](https://developer.mozilla.org/ru/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 4) [Cookies](https://developer.mozilla.org/ru/docs/Web/API/Document/cookie)
 5) [Reference Type. this](https://learn.javascript.ru/object-methods#vnutrennyaya-realizatsiya-ssylochnyy-tip)
-6) [Required Headers](https://serverfault.com/questions/163511/what-is-the-mandatory-information-a-http-request-header-must-contain)
+6) [Required Headers](https://serverfault.com/questions/163511/what-is-the-mandatory-information-a-http-request-header-must-contain)<br/>
 7) [CORS](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
 
 Важно: 
@@ -15,3 +15,8 @@
 2) Bounded functions. Повторный вызов bind контекст не изменит, так же как и не будет эфекта от call и apply.
 3) Hoisting. Объявление функций перекрывает объявление переменных. Инициализация переменных перекрывает объявление функций.
 4) Промисы используют job queue, которая имеет больший приоритет выполнения.
+5) Minimal HTTP/1.1 request
+   ```
+   GET / HTTP/1.1  
+   Host: www.w3.org
+   ```
