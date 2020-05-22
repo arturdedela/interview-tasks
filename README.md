@@ -15,7 +15,7 @@
 2) Bounded functions. Повторный вызов bind контекст не изменит, так же как и не будет эфекта от call и apply.
 3) Hoisting. Объявление функций перекрывает объявление переменных. Инициализация переменных перекрывает объявление функций.
 4) Промисы используют job queue, которая имеет больший приоритет выполнения.
-5) Minimal HTTP/1.1 request
+5) Minimal HTTP/1.1 request [RFC](https://tools.ietf.org/html/rfc2616#section-14.23)
    ```
    GET / HTTP/1.1  
    Host: www.w3.org
