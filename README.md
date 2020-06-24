@@ -9,6 +9,7 @@
 5) [Reference Type. this](https://learn.javascript.ru/object-methods#vnutrennyaya-realizatsiya-ssylochnyy-tip)
 6) [Required Headers](https://serverfault.com/questions/163511/what-is-the-mandatory-information-a-http-request-header-must-contain)<br/>
 7) [CORS](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
+8) [HTTP Caching](https://www.mnot.net/cache_docs/#DEFINITION)
 
 Важно: 
 1) У стрелочных функций контекст неизменяем (bind, call, apply не дадут эффекта).
