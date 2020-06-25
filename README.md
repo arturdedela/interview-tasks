@@ -11,6 +11,7 @@
 7) [CORS](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
 8) [HTTP Caching](https://www.mnot.net/cache_docs/#DEFINITION)
 9) [Ускорение загрузки страницы](https://habr.com/en/company/badoo/blog/320558/)
+10) [Как работают браузеры(Как загружается и отрисовывается страница)](https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work)
 
 Важно: 
 1) У стрелочных функций контекст неизменяем (bind, call, apply не дадут эффекта).
