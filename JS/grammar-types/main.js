@@ -16,3 +16,13 @@ console.log(Boolean({})); // true
 console.log([] !== []); // true
 
 console.groupEnd();
+
+var foo = true;
+
+if (foo) {
+  let bar = foo * 2;
+  bar = 123;
+  console.log(bar);
+}
+
+console.log(bar);
